@@ -1,0 +1,35 @@
+{
+  "name": "trowe-alexa-event-sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "root/src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./root/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/cli": "^1.7.0",
+    "aws-amplify": "^1.1.28",
+    "express": "^4.17.1",
+    "opn": "^6.0.0",
+    "apollo-cache-inmemory": "^1.1.0",
+    "apollo-client": "^2.0.3",
+    "apollo-link": "^1.0.3",
+    "apollo-link-http": "^1.2.0",
+    "aws-sdk": "^2.141.0",
+    "aws-appsync": "^1.0.0",
+    "es6-promise": "^4.1.1",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "ws": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
